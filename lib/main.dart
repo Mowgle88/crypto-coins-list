@@ -8,7 +8,6 @@ void main() {
 class CryptoCurrenciesListApp extends StatelessWidget {
   const CryptoCurrenciesListApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -48,14 +47,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  // int _counter = 0;
-
-  // void _incrementCounter() {
-  //   setState(() {
-  //     _counter++;
-  //   });
-  // }
-
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
@@ -78,11 +69,6 @@ class _MyHomePageState extends State<MyHomePage> {
           trailing: const Icon(Icons.arrow_forward_ios),
         ),
       ),
-      // floatingActionButton: FloatingActionButton(
-      //   onPressed: _incrementCounter,
-      //   tooltip: 'Increment',
-      //   child: const Icon(Icons.add),
-      // ),
     );
   }
 }
