@@ -1,8 +1,8 @@
 import 'package:crypto_coins_list/repositories/crypto_coins/crypto_coins.dart';
 import 'package:dio/dio.dart';
 
-class CryptoCoinRepository implements AbstractCoinsRepository {
-  CryptoCoinRepository({required this.dio});
+class CryptoCoinsRepository implements AbstractCoinsRepository {
+  CryptoCoinsRepository({required this.dio});
 
   final Dio dio;
 
