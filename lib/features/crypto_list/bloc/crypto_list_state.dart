@@ -22,7 +22,7 @@ class CryptoListLoaded extends CryptoListState {
 }
 
 class CryptoListLoadingFailure extends CryptoListState {
-  CryptoListLoadingFailure({required this.exception});
+  CryptoListLoadingFailure({this.exception});
 
   final Object? exception;
 
