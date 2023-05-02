@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 
 class CryptoCoinTile extends StatelessWidget {
   const CryptoCoinTile({
-    super.key,
+    Key? key,
     required this.coin,
-  });
+  }) : super(key: key);
 
   final CryptoCoin coin;
 
@@ -20,7 +20,7 @@ class CryptoCoinTile extends StatelessWidget {
           style: theme.textTheme.labelSmall),
       trailing: const Icon(Icons.arrow_forward_ios),
       onTap: () {
-        Navigator.of(context).pushNamed('/coin', arguments: coin.name);
+        Navigator.of(context).pushNamed('/coin', arguments: coin);
       },
       // onTap: () {
       //   Navigator.of(context).push(

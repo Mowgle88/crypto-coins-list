@@ -27,7 +27,7 @@ void main() async {
   dio.interceptors.add(
     TalkerDioLogger(
         talker: talker,
-        settings: const TalkerDioLoggerSettings(printRequestData: false)),
+        settings: const TalkerDioLoggerSettings(printResponseData: false)),
   );
 
   Bloc.observer = TalkerBlocObserver(talker: talker);
