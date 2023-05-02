@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "733908041215",
+    "project_id": "crypto-list-app-2023",
+    "storage_bucket": "crypto-list-app-2023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733908041215:android:642051adffa74f84d47bca",
+        "android_client_info": {
+          "package_name": "com.cryptoguys.crypto_coins_list"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "733908041215-hacp7p6j1smbk10ki3ghunhscprbqblo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATN5AqFdtuR3gsBUcnTx-8sf8An9daS4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "733908041215-hacp7p6j1smbk10ki3ghunhscprbqblo.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "733908041215-686bfr442dvkeb89l18k3ksce8aa9ot8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.cryptoguys.cryptoCoinsList"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
